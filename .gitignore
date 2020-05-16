@@ -1,0 +1,10 @@
+output 
+
+sources
+schemes
+sources.yaml
+
+templates/*
+
+!/templates/config.yaml
+!/templates/default.mustache
