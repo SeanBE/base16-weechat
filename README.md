@@ -1,6 +1,6 @@
 # base16-weechat
 
-**the builder template isn't finished yet (more like haven't started :D) so bare with me**
+**the template isn't finished yet (more like haven't started :D) so bare with me**
 
 This repository provide [base16][1] colorschemes for [weechat][2].
 

@@ -3,6 +3,25 @@
 # $name: {{scheme-name}}
 #
 
+# 0 {{base00-hex}} - {{base00-256}}
+# 1 {{base01-hex}} - {{base01-256}}
+# 2 {{base02-hex}} - {{base02-256}}
+# 3 {{base03-hex}} - {{base03-256}}
+# 4 {{base04-hex}} - {{base04-256}}
+# 5 {{base05-hex}} - {{base05-256}}
+# 6 {{base06-hex}} - {{base06-256}}
+# 7 {{base07-hex}} - {{base07-256}}
+# 8 {{base08-hex}} - {{base08-256}}
+# 9 {{base09-hex}} - {{base09-256}}
+#
+# A {{base0A-hex}} - {{base0A-256}}
+# B {{base0B-hex}} - {{base0B-256}}
+# C {{base0C-hex}} - {{base0C-256}}
+# D {{base0D-hex}} - {{base0D-256}}
+# E {{base0E-hex}} - {{base0E-256}}
+# F {{base0F-hex}} - {{base0F-256}}
+
+
 irc.color.input_nick = "lightcyan"
 irc.color.item_channel_modes = "default"
 irc.color.item_lag_counting = "default"
@@ -46,9 +65,9 @@ weechat.bar.status.color_delim = "cyan"
 weechat.bar.status.color_fg = "default"
 weechat.bar.title.color_bg = "default"
 weechat.bar.title.color_delim = "cyan"
-weechat.bar.title.color_fg = "default"
+weechat.bar.title.color_fg = "*{{base07-256}}"
 weechat.color.bar_more = "lightmagenta"
-weechat.color.chat = "default"
+weechat.color.chat = "{{base06-256}}"
 weechat.color.chat_bg = "default"
 weechat.color.chat_buffer = "white"
 weechat.color.chat_channel = "*default"
@@ -132,3 +151,6 @@ xfer.color.status_waiting = "lightcyan"
 xfer.color.text = "default"
 xfer.color.text_bg = "default"
 xfer.color.text_selected = "white"
+
+buflist.format.hotlist_message = "${color:{{base08-256}}}"
+buflist.format.hotlist_none = "${color:default}"
